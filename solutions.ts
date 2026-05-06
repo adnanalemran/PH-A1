@@ -44,7 +44,6 @@ function toggleReadStatus(book: Book): BookWithReadStatus {
 }
 
 // Problem 6
-
 class Person {
   name: string;
   age: number;
@@ -66,6 +65,12 @@ class Student extends Person {
   getDetails(): string {
     return `Name: ${this.name}, Age: ${this.age}, Grade: ${this.grade}`;
   }
+}
+
+// Problem 7
+function getIntersection(source: number[], target: number[]): number[] {
+  const targetSet = new Set(target);
+  return source.filter(num => targetSet.has(num));
 }
 
 
