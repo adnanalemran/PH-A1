@@ -9,3 +9,14 @@ function reverseString(str: string): string {
   return str.split('').reverse().join('');
 }
  
+// Problem 3
+type StringOrNumber = string | number;
+
+function checkType(value: StringOrNumber): string {
+  if (typeof value === "string") {
+    return "String";
+  } else {
+    return "Number";
+  }
+}
+
