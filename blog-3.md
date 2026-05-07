@@ -18,8 +18,8 @@ function getFirstElement<T>(arr: T[]): T {
   return arr[0];
 }
 
-const firstNumber = getFirstElement([10, 20, 30]); // number
-const firstString = getFirstElement(["a", "b", "c"]); // string
+const firstNumber = getFirstElement([10, 20, 30]);  
+const firstString = getFirstElement(["a", "b", "c"]);  
 ```
 
 Here, one function works for both numbers and strings.  
@@ -71,13 +71,4 @@ In frontend, Generics are very useful for reusable components like tables, dropd
 
 Example: one table component can render users, products, or orders if we define it with a generic type like `<T>`.  
 So we avoid building the same component again and again.
-
-## Final thoughts
-
-Generics help us:
-- write less duplicate code
-- keep functions/components reusable
-- get strict typing for different data shapes
-- catch mistakes at compile time
-
-So Generics are one of the best TypeScript features for writing scalable and maintainable code.
+ 

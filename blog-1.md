@@ -43,11 +43,4 @@ function printLength(value: unknown) {
 ```
 
 Inside the `if`, TypeScript now knows `value` is a string.
-
-## Final thoughts
-
-- `any` is quick, but unsafe
-- `unknown` is strict, but safer
-- type narrowing helps us write reliable code
-
-So for API data, user input, or anything uncertain, I now prefer `unknown` over `any`.
+ 

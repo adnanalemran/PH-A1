@@ -106,10 +106,4 @@ In large-scale TypeScript apps:
 - **Encapsulation** prevents unsafe direct access to data
 
 Together, they make code easier to test, refactor, and scale with team size.
-
-## Final thoughts
-
-OOP pillars are not just theory.  
-They are practical design tools for managing growing business logic and real world.
-
-When used properly in TypeScript, they help us write modular code, reduce complexity, and keep big projects maintainable over time.
+ 

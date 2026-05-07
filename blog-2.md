@@ -68,9 +68,4 @@ DRY means: do not repeat the same logic/structure in multiple places.
 - less repeated property declarations
 - fewer update mistakes during refactor
 - cleaner and more maintainable codebase
-
-## Final thought
-
-`Pick` and `Omit` are small utility types, but in real projects they save a lot of time.  
-They help us build specialized types from one master interface in a safe and reusable way.  
-So instead of rewriting similar interfaces again and again, we can keep code simple, consistent, and DRY.
+ 
